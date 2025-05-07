@@ -1,0 +1,5 @@
+let mySprite = sprites.create(assets.image`Mc sprite`, SpriteKind.Player)
+tiles.setCurrentTilemap(tilemap`level1`)
+tiles.placeOnTile(mySprite, tiles.getTileLocation(0, 7))
+controller.moveSprite(mySprite)
+scene.cameraFollowSprite(mySprite)
