@@ -2,7 +2,8 @@
     "name": "puzzle game ",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0"
     },
     "files": [
         "main.blocks",
