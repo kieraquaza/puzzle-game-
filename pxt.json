@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0"
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.12"
     },
     "files": [
         "main.blocks",
